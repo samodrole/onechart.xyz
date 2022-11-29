@@ -11,7 +11,6 @@
 
 
 
-<h2>page</h2>
 {#each data as card}
     <Card cardinfo={card}/>
 {/each}
