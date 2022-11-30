@@ -18,57 +18,12 @@ export const data = [
         image: "http://onechart.xyz/images/popcorn.jpg"
     },
     {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
+        title: "In life you need colors",
+        alt: "In life you need colors",
+        month: "April",
         year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1win.jpg"
-    },
-    {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
-        year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1wins.jpg"
-    },
-    {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
-        year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1win.jpg"
-    },
-    {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
-        year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1wins.jpg"
-    },
-    {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
-        year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1wins.jpg"
-    },
-    {
-        title: "Most wins in a single F1 season",
-        alt: "Most wins in a single F1 season",
-        month: "November",
-        year: 2022,
-        technology: ["Svelte", "D3.js"],
-        link: "http://onechart.xyz/most_f1_wins/",
-        image: "http://onechart.xyz/images/mostF1wins.jpg"
+        technology: ["Framer", "D3.js"],
+        link: "https://unique-marketing-098490.framer.app/",
+        image: "http://onechart.xyz/images/bobRoss.jpg"
     },
 ]

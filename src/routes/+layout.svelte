@@ -12,20 +12,14 @@
             <div class="title">
                 <h1><span class="logo"></span>onechart</h1>
             </div>
-            <div class="share">
-                <a href="">Copy link</a>
-            </div>
         </header>
     {:else}
         <aside>
             <div class="title">
                 <h1><span class="logo"></span>onechart</h1>
-                <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset</p>
+                <p>A chart is a graphical representation for data visualization, in which "the data is represented by symbols, such as bars in a bar chart, lines in a line chart, or slices in a pie chart".</p><br/>
+                <p>Charts are often used to ease understanding of large quantities of data and the relationships between parts of the data. Charts can usually be read more quickly than the raw data. <br/><br/><span>- Wikipedia</span></p>
             </div>
-            <div class="share">
-                <a href="">Copy link</a>
-            </div>
-
         </aside>
     {/if}
 
@@ -43,7 +37,7 @@
         flex-wrap: nowrap;
     }
     aside {
-        padding: 24px;
+        padding: 24px 48px;
         position: sticky;
         top: 0;
         align-self: start;
@@ -51,6 +45,13 @@
     }
     .title h1 {
         margin-bottom: 24px;
+    }
+    .title p {
+        color: var(--textColor80);
+    }
+    .title p span {
+        font-style: italic;
+        color: var(--textColor40);
     }
     .logo {
         width: 36px;
@@ -64,7 +65,7 @@
     }
     content {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         row-gap: 42px;
         column-gap: 24px;
         padding: 24px;
@@ -84,13 +85,16 @@
             background: rgba(255, 255, 255, .6);
             border-bottom: 1px solid rgba(0, 0, 0, .1);;
             position: sticky;
+            z-index: 10;
             top: 0;
             align-self: start;
             backdrop-filter: blur(20px);
             justify-content: space-between;
             align-items: center;
         }
-        header > div {}
+        header .title h1 {
+            margin: 1rem 0;
+        }
         h1 {
             font-size: 1.8rem;
         }

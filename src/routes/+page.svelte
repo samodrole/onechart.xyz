@@ -2,6 +2,8 @@
     import Card from '$lib/components/Card.svelte'
     import {data} from '$lib/assets/data.js'
 
+    $: data.sort((a,b) => b.year - a.year)
+
 </script>
 
 <svelte:head>
