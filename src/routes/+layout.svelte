@@ -66,7 +66,7 @@
     content {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        row-gap: 42px;
+        row-gap: 24px;
         column-gap: 24px;
         padding: 24px;
     }
@@ -74,9 +74,6 @@
     @media (max-width:660px) {
         main {
             grid-template-columns: 1fr;
-        }
-        content {
-            padding: 16px;
         }
         header {
             display: flex;

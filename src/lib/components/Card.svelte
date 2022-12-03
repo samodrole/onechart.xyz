@@ -21,6 +21,11 @@
 <style>
     .card {
         transition: all .25s;
+        padding: 16px;
+        border-radius: 12px;
+        background-color: #fff;
+        transition: box-shadow ease 0.25s;
+        box-shadow: 0 1px 8px 1px rgba(112, 112, 112, 0.2);
     }
     .card > a {
         display: block;
@@ -34,11 +39,11 @@
         height: 100%;
         min-height: 260px;
         min-width: 220px;
-        padding: 2px;
-        border: 1px solid #d1d1d1;
+        margin-bottom: 16px;
+        /* padding: 2px;
+        border: 1px solid #d1d1d1; */
         border-radius: 8px;
         overflow: hidden;
-        transition: box-shadow ease 0.25s;
         background: url('$lib/assets/Rhombus.gif') center no-repeat;
         background-size: 32px;
         transition: all .25s;
@@ -53,7 +58,7 @@
         bottom: 0;
         left: 0;
     }
-    .card > a:hover .image {
+    .card:hover {
         box-shadow: 0 2px 16px 2px rgba(112, 112, 112, 0.4);
     }
     .cardinfo {

@@ -7,14 +7,12 @@
   line-height: 1.6rem;
   font-weight: 400;
 
-  --bgColor: #fff;
+  --bgColor: rgb(235, 235, 235);
   --textColor100: rgba(0, 0, 0, 1);
   --textColor80: rgba(0, 0, 0, .8);
   --textColor60: rgba(0, 0, 0, .6);
   --textColor40: rgba(0, 0, 0, .4);
   --textColor20: rgba(0, 0, 0, .2);
-
-  background-color: var(--bgColor);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +25,7 @@ body, html {
     padding: 0;
     margin: 0;
     color: var(--textColor100);
+    background-color: var(--bgColor);
 }
 
 h1 {
@@ -36,15 +35,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 1rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.4rem;
 
 }
 p{
