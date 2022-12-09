@@ -6,6 +6,7 @@ export const data = [
         year: 2022,
         technology: ["Svelte", "D3.js"],
         link: "http://onechart.xyz/most_f1_wins/",
+        target: "_self",
         image: "http://onechart.xyz/images/mostF1wins.jpg"
     },
     {
@@ -15,6 +16,7 @@ export const data = [
         year: 2019,
         technology: ["Tableau"],
         link: "https://public.tableau.com/app/profile/samodrole/viz/PopcornRankings_01MM2019w17/PopCornRankingNBA",
+        target: "_blank",
         image: "http://onechart.xyz/images/popcorn.jpg"
     },
     {
@@ -24,6 +26,7 @@ export const data = [
         year: 2022,
         technology: ["Framer", "D3.js"],
         link: "https://unique-marketing-098490.framer.app/",
+        target: "_blank",
         image: "http://onechart.xyz/images/bobRoss.jpg"
     },
 ]

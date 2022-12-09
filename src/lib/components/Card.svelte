@@ -5,7 +5,7 @@
 </script>
 
 <div class="card">
-    <a class="thumbnail" href={cardinfo.link} target="_blank" rel="noreferrer">
+    <a class="thumbnail" href={cardinfo.link} target={cardinfo.target} rel="noreferrer">
 
         <div class="image">
             <Image src={cardinfo.image} alt={cardinfo.alt}/>
